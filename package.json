@@ -7,11 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
+  "homepage": "https://mahmoudabdelsalam-MIS.github.io/TechnoLink",
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
     "axios": "^1.18.1",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^1.23.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
