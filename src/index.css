@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme {
+  /* تعريف الألوان الخاصة بك */
+  --color-primary: #292D32;
+  --color-secondary: #F68D20;
+  --color-gray: #828385;
+  --color-primaryButton: #3C1110;
+  --color-bgNav: #191B1D;
+  --color-secondaryButton: #F68D20;
+  --color-dark: #0f172a;
+  --color-light: #f8fafc;
+}
+
